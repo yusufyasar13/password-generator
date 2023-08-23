@@ -27,8 +27,11 @@ The app includes the following features:
 ## Installation and Usage
  
     1) Clone or download this code repository to your computer.
+    
     2) The application requires Python 3.x to be installed.
+    
     3) Open your terminal or command prompt and navigate to the directory where the code repository is located.
+    
     4) Run the application using the following command:
 
 ```bash 
