@@ -25,8 +25,10 @@ The app includes the following features:
 
   
 ## Installation and Usage
- 
-    1) Clone or download this code repository to your computer.
+
+    ********** First Usace of The Project **********
+
+    1) Clone or download this code repository to your computer and unzip the downloaded file.
     
     2) The application requires Python 3.x to be installed.
     
@@ -40,6 +42,22 @@ The app includes the following features:
 ```
     5) Once the application starts, you can perform password generation and management tasks.
 
+    ********** Second Usace of The Project **********
+
+    1) Clone or download this code repository to your computer and unzip the downloaded file.
+        
+    2) The application is not require Python 3.x to be installed.
+        
+    3) Click twice the exe file or open your terminal or command prompt and navigate to the directory where the code repository is located.
+
+    4) Run the application using the following command:
+
+```bash 
+  password_generator.exe
+
+```
+    5) Once the application starts, you can perform password generation and management tasks.
+    
     
 ![App Screenshot](https://raw.githubusercontent.com/yusufyasar13/password-generator/main/password_generator/screenshots/password_generator_ss_2.png)
 ## License
