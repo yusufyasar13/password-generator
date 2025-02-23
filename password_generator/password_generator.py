@@ -264,7 +264,7 @@ class App(tk.Tk):
                 # overwriting the file without any password 
                 self.file = open("my_passwords.txt","w+")
                 self.file.writelines(self.pass_listbx.get(0,tk.END))
-                self.message = showinfo(title='Information', message='The file is created!')
+                self.message = showinfo(title='Information', message='The file is overwritten!')
                 self.file.close()
             else:
                 return False
@@ -277,7 +277,7 @@ class App(tk.Tk):
                 # overwrite the file with the passwords inside the listbox 
                 self.file = open("my_passwords.txt","w+")
                 self.file.writelines(self.pass_listbx.get(0,tk.END))
-                self.message = showinfo(title='Information', message='The file is created!')
+                self.message = showinfo(title='Information', message='The file is overwritten!')
                 self.file.close()
             else:
                 return False
@@ -290,6 +290,7 @@ class App(tk.Tk):
                 # creating the file without any password 
                 self.file = open("my_passwords.txt","w+")
                 self.file.writelines(self.pass_listbx.get(0,tk.END))
+                self.message = showinfo(title='Information', message='The file is created!')
                 self.file.close()
             else:
                 return False
@@ -297,6 +298,7 @@ class App(tk.Tk):
             # creating the file and writing the passwords inside of the listbox 
             self.file = open("my_passwords.txt","w+")
             self.file.writelines(self.pass_listbx.get(0,tk.END))
+            self.message = showinfo(title='Information', message='The file is created!')
             self.file.close()
 
     
