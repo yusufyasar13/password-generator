@@ -13,7 +13,7 @@ class App(tk.Tk):
 
         # general features of the app 
         self.title('Password Generator')
-        self.iconbitmap('.icons/key.ico')
+        self.iconbitmap('./icons/key.ico')
         self.size(300,200)
         self.main_screen()
 
@@ -38,8 +38,8 @@ class App(tk.Tk):
         self.special_padd2 = {'padx': 55, 'pady': 5}
 
         # images used in the app
-        self.begin_image = tk.PhotoImage(file='.images/lock.png')
-        self.quit_image = tk.PhotoImage(file='.images/exit.png')
+        self.begin_image = tk.PhotoImage(file='./images/lock.png')
+        self.quit_image = tk.PhotoImage(file='./images/exit.png')
 
         # contents of begin and quit buttons
         self.main_btn_frame_content = {}
