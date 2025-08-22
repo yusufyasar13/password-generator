@@ -33,14 +33,20 @@ The app includes the following features:
     2) The application requires Python 3.x to be installed.
     
     3) Open your terminal or command prompt and navigate to the directory where the code repository is located.
-    
-    4) Run the application using the following command:
+
+    4) Type the following command into the terminal to download the necessary requirements.
+
+```bash 
+  pip install -r requirements.txt
+
+```
+    5) Run the application using the following command:
 
 ```bash 
   python password_generator.py
 
 ```
-    5) Once the application starts, you can perform password generation and management tasks.
+    6) Once the application starts, you can perform password generation and management tasks.
 
     ********** Second Usace of The Project **********
 
