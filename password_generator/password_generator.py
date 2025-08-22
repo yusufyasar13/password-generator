@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter.messagebox import showwarning, askyesno, showinfo
 import string, random, os.path
+import os
 
 
 class App(tk.Tk):
@@ -13,7 +14,9 @@ class App(tk.Tk):
 
         # general features of the app 
         self.title('Password Generator')
-        self.iconbitmap('./icons/key.ico')
+        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+        key_path = os.path.join(BASE_DIR, "icons", "key.ico")
+        self.iconbitmap(key_path)
         self.size(300,200)
         self.main_screen()
 
@@ -38,8 +41,11 @@ class App(tk.Tk):
         self.special_padd2 = {'padx': 55, 'pady': 5}
 
         # images used in the app
-        self.begin_image = tk.PhotoImage(file='./images/lock.png')
-        self.quit_image = tk.PhotoImage(file='./images/exit.png')
+        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+        lock_path = os.path.join(BASE_DIR, "images", "lock.png")
+        self.begin_image = tk.PhotoImage(file=lock_path)
+        exit_path = os.path.join(BASE_DIR, "images", "exit.png")
+        self.quit_image = tk.PhotoImage(file=exit_path)
 
         # contents of begin and quit buttons
         self.main_btn_frame_content = {}
